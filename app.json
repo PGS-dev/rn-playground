@@ -1,0 +1,17 @@
+{
+  "name": "rn-playground",
+  "displayName": "rn-playground",
+  "expo": {
+    "name": "rn-playground",
+    "slug": "rn-playground",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
