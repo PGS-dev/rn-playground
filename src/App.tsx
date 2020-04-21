@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import { HomeScreen } from './screens/HomeScreen';
 import { WebViewExternalScreen } from './screens/WebViewExternalScreen';
+import { WebViewInternalScreen } from './screens/WebViewInternalScreen';
 
 const Stack = createStackNavigator();
 
@@ -15,6 +16,7 @@ export default function App() {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="WebViewPWA" component={WebViewExternalScreen} />
+        <Stack.Screen name="WebViewInternal" component={WebViewInternalScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
