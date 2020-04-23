@@ -11,6 +11,8 @@ This project is a playground to test varoious features on React Native.
   - File download
 - More soon...
 
+![Demo](demo.gif)
+
 ## Installing the package
 
 Install dependencies:
